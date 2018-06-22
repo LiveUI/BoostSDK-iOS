@@ -6,12 +6,7 @@
 //  Copyright © 2018 Ford. All rights reserved.
 //
 
-#if TARGET_OS_MAC
-    #import <Cocoa/Cocoa.h>
-#else
-    #import <UIKit/UIKit.h>
-#endif
-
+#import <UIKit/UIKit.h>
 
 //! Project version number for BoostSDK.
 FOUNDATION_EXPORT double BoostSDKVersionNumber;

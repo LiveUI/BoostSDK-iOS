@@ -7,9 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1574F42120BB22D800203B05 /* BoostSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1574F41F20BB22D800203B05 /* BoostSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1574F42E20BB235800203B05 /* BoostSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 1574F42C20BB235800203B05 /* BoostSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1574F43220BB23E600203B05 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2220BB221000E1D06C /* Networking.swift */; };
+		1574F43320BB23E600203B05 /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2520BB221000E1D06C /* Overview.swift */; };
+		1574F43420BB23E600203B05 /* TeamAppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2620BB221000E1D06C /* TeamAppInfo.swift */; };
+		1574F43520BB23E600203B05 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2720BB221000E1D06C /* App.swift */; };
+		1574F43620BB23E600203B05 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2920BB221000E1D06C /* Login.swift */; };
+		1574F43720BB23E600203B05 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2A20BB221000E1D06C /* Info.swift */; };
+		1574F43820BB23E600203B05 /* Success.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2B20BB221000E1D06C /* Success.swift */; };
+		1574F43920BB23E600203B05 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2C20BB221000E1D06C /* Team.swift */; };
+		1574F43A20BB23E600203B05 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2D20BB221000E1D06C /* User.swift */; };
+		1574F43B20BB23E600203B05 /* Pong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2E20BB221000E1D06C /* Pong.swift */; };
+		1574F43C20BB23E600203B05 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2F20BB221000E1D06C /* Token.swift */; };
+		1574F43D20BB23E600203B05 /* Codable+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3120BB221000E1D06C /* Codable+Tools.swift */; };
+		1574F43E20BB23E600203B05 /* Networking+SimpleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3220BB221000E1D06C /* Networking+SimpleRequest.swift */; };
+		1574F43F20BB23E600203B05 /* String+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3320BB221000E1D06C /* String+Tools.swift */; };
+		1574F44020BB23E600203B05 /* Api+Boost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3620BB221000E1D06C /* Api+Boost.swift */; };
+		1574F44120BB23E600203B05 /* Api+Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3720BB221000E1D06C /* Api+Apps.swift */; };
+		1574F44220BB23E600203B05 /* Api+Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3A20BB221000E1D06C /* Api+Teams.swift */; };
+		1574F44320BB23E600203B05 /* Api+Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3B20BB221000E1D06C /* Api+Auth.swift */; };
+		1574F44420BB23E600203B05 /* Api+ApiCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3C20BB221000E1D06C /* Api+ApiCore.swift */; };
+		1574F44520BB23E600203B05 /* Api+Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3D20BB221000E1D06C /* Api+Users.swift */; };
+		1574F44620BB23E600203B05 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3E20BB221000E1D06C /* Api.swift */; };
+		1574F44720BB23E600203B05 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4020BB221000E1D06C /* Query.swift */; };
+		1574F44820BB23E600203B05 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4120BB221000E1D06C /* Result.swift */; };
+		1574F44920BB23E600203B05 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4220BB221000E1D06C /* Problem.swift */; };
+		1574F44A20BB23E600203B05 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4320BB221000E1D06C /* Promise.swift */; };
+		1574F44B20BB23E600203B05 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4420BB221000E1D06C /* Debug.swift */; };
+		1574F44C20BB23E600203B05 /* Boost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4520BB221000E1D06C /* Boost.swift */; };
+		1574F44D20BB23E600203B05 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4720BB221000E1D06C /* Model.swift */; };
+		1574F44E20BB23E600203B05 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4820BB221000E1D06C /* Entry.swift */; };
+		1574F44F20BB23E700203B05 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2220BB221000E1D06C /* Networking.swift */; };
+		1574F45020BB23E700203B05 /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2520BB221000E1D06C /* Overview.swift */; };
+		1574F45120BB23E700203B05 /* TeamAppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2620BB221000E1D06C /* TeamAppInfo.swift */; };
+		1574F45220BB23E700203B05 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2720BB221000E1D06C /* App.swift */; };
+		1574F45320BB23E700203B05 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2920BB221000E1D06C /* Login.swift */; };
+		1574F45420BB23E700203B05 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2A20BB221000E1D06C /* Info.swift */; };
+		1574F45520BB23E700203B05 /* Success.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2B20BB221000E1D06C /* Success.swift */; };
+		1574F45620BB23E700203B05 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2C20BB221000E1D06C /* Team.swift */; };
+		1574F45720BB23E700203B05 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2D20BB221000E1D06C /* User.swift */; };
+		1574F45820BB23E700203B05 /* Pong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2E20BB221000E1D06C /* Pong.swift */; };
+		1574F45920BB23E700203B05 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2F20BB221000E1D06C /* Token.swift */; };
+		1574F45A20BB23E700203B05 /* Codable+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3120BB221000E1D06C /* Codable+Tools.swift */; };
+		1574F45B20BB23E700203B05 /* Networking+SimpleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3220BB221000E1D06C /* Networking+SimpleRequest.swift */; };
+		1574F45C20BB23E700203B05 /* String+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3320BB221000E1D06C /* String+Tools.swift */; };
+		1574F45D20BB23E700203B05 /* Api+Boost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3620BB221000E1D06C /* Api+Boost.swift */; };
+		1574F45E20BB23E700203B05 /* Api+Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3720BB221000E1D06C /* Api+Apps.swift */; };
+		1574F45F20BB23E700203B05 /* Api+Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3A20BB221000E1D06C /* Api+Teams.swift */; };
+		1574F46020BB23E700203B05 /* Api+Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3B20BB221000E1D06C /* Api+Auth.swift */; };
+		1574F46120BB23E700203B05 /* Api+ApiCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3C20BB221000E1D06C /* Api+ApiCore.swift */; };
+		1574F46220BB23E700203B05 /* Api+Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3D20BB221000E1D06C /* Api+Users.swift */; };
+		1574F46320BB23E700203B05 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3E20BB221000E1D06C /* Api.swift */; };
+		1574F46420BB23E700203B05 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4020BB221000E1D06C /* Query.swift */; };
+		1574F46520BB23E700203B05 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4120BB221000E1D06C /* Result.swift */; };
+		1574F46620BB23E700203B05 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4220BB221000E1D06C /* Problem.swift */; };
+		1574F46720BB23E700203B05 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4320BB221000E1D06C /* Promise.swift */; };
+		1574F46820BB23E700203B05 /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4420BB221000E1D06C /* Debug.swift */; };
+		1574F46920BB23E700203B05 /* Boost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4520BB221000E1D06C /* Boost.swift */; };
+		1574F46A20BB23E700203B05 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4720BB221000E1D06C /* Model.swift */; };
+		1574F46B20BB23E700203B05 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4820BB221000E1D06C /* Entry.swift */; };
 		15C39B0B20BB219800E1D06C /* BoostSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C39B0120BB219800E1D06C /* BoostSDK.framework */; };
 		15C39B1020BB219800E1D06C /* BoostSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B0F20BB219800E1D06C /* BoostSDKTests.swift */; };
-		15C39B1220BB219800E1D06C /* BoostSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 15C39B0420BB219800E1D06C /* BoostSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15C39B4920BB221100E1D06C /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2220BB221000E1D06C /* Networking.swift */; };
+		15C39B4A20BB221100E1D06C /* Overview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2520BB221000E1D06C /* Overview.swift */; };
+		15C39B4B20BB221100E1D06C /* TeamAppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2620BB221000E1D06C /* TeamAppInfo.swift */; };
+		15C39B4C20BB221100E1D06C /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2720BB221000E1D06C /* App.swift */; };
+		15C39B4D20BB221100E1D06C /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2920BB221000E1D06C /* Login.swift */; };
+		15C39B4E20BB221100E1D06C /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2A20BB221000E1D06C /* Info.swift */; };
+		15C39B4F20BB221100E1D06C /* Success.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2B20BB221000E1D06C /* Success.swift */; };
+		15C39B5020BB221100E1D06C /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2C20BB221000E1D06C /* Team.swift */; };
+		15C39B5120BB221100E1D06C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2D20BB221000E1D06C /* User.swift */; };
+		15C39B5220BB221100E1D06C /* Pong.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2E20BB221000E1D06C /* Pong.swift */; };
+		15C39B5320BB221100E1D06C /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B2F20BB221000E1D06C /* Token.swift */; };
+		15C39B5420BB221100E1D06C /* Codable+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3120BB221000E1D06C /* Codable+Tools.swift */; };
+		15C39B5520BB221100E1D06C /* Networking+SimpleRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3220BB221000E1D06C /* Networking+SimpleRequest.swift */; };
+		15C39B5620BB221100E1D06C /* String+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3320BB221000E1D06C /* String+Tools.swift */; };
+		15C39B5720BB221100E1D06C /* Api+Boost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3620BB221000E1D06C /* Api+Boost.swift */; };
+		15C39B5820BB221100E1D06C /* Api+Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3720BB221000E1D06C /* Api+Apps.swift */; };
+		15C39B5920BB221100E1D06C /* Api+Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3A20BB221000E1D06C /* Api+Teams.swift */; };
+		15C39B5A20BB221100E1D06C /* Api+Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3B20BB221000E1D06C /* Api+Auth.swift */; };
+		15C39B5B20BB221100E1D06C /* Api+ApiCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3C20BB221000E1D06C /* Api+ApiCore.swift */; };
+		15C39B5C20BB221100E1D06C /* Api+Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3D20BB221000E1D06C /* Api+Users.swift */; };
+		15C39B5D20BB221100E1D06C /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B3E20BB221000E1D06C /* Api.swift */; };
+		15C39B5E20BB221100E1D06C /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4020BB221000E1D06C /* Query.swift */; };
+		15C39B5F20BB221100E1D06C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4120BB221000E1D06C /* Result.swift */; };
+		15C39B6020BB221100E1D06C /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4220BB221000E1D06C /* Problem.swift */; };
+		15C39B6120BB221100E1D06C /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4320BB221000E1D06C /* Promise.swift */; };
+		15C39B6220BB221100E1D06C /* Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4420BB221000E1D06C /* Debug.swift */; };
+		15C39B6320BB221100E1D06C /* Boost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4520BB221000E1D06C /* Boost.swift */; };
+		15C39B6420BB221100E1D06C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4720BB221000E1D06C /* Model.swift */; };
+		15C39B6520BB221100E1D06C /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C39B4820BB221000E1D06C /* Entry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,15 +111,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1574F41D20BB22D800203B05 /* BoostSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoostSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1574F41F20BB22D800203B05 /* BoostSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoostSDK.h; sourceTree = "<group>"; };
+		1574F42020BB22D800203B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1574F42A20BB235800203B05 /* BoostSDK_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoostSDK_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1574F42C20BB235800203B05 /* BoostSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoostSDK.h; sourceTree = "<group>"; };
+		1574F42D20BB235800203B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15C39B0120BB219800E1D06C /* BoostSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoostSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		15C39B0420BB219800E1D06C /* BoostSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoostSDK.h; sourceTree = "<group>"; };
-		15C39B0520BB219800E1D06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15C39B0A20BB219800E1D06C /* BoostSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoostSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15C39B0F20BB219800E1D06C /* BoostSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoostSDKTests.swift; sourceTree = "<group>"; };
 		15C39B1120BB219800E1D06C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C39B1C20BB21F300E1D06C /* BoostSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoostSDK.h; sourceTree = "<group>"; };
+		15C39B1D20BB21F300E1D06C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C39B2220BB221000E1D06C /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		15C39B2520BB221000E1D06C /* Overview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Overview.swift; sourceTree = "<group>"; };
+		15C39B2620BB221000E1D06C /* TeamAppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamAppInfo.swift; sourceTree = "<group>"; };
+		15C39B2720BB221000E1D06C /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		15C39B2920BB221000E1D06C /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		15C39B2A20BB221000E1D06C /* Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		15C39B2B20BB221000E1D06C /* Success.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Success.swift; sourceTree = "<group>"; };
+		15C39B2C20BB221000E1D06C /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		15C39B2D20BB221000E1D06C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		15C39B2E20BB221000E1D06C /* Pong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pong.swift; sourceTree = "<group>"; };
+		15C39B2F20BB221000E1D06C /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		15C39B3120BB221000E1D06C /* Codable+Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Codable+Tools.swift"; sourceTree = "<group>"; };
+		15C39B3220BB221000E1D06C /* Networking+SimpleRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Networking+SimpleRequest.swift"; sourceTree = "<group>"; };
+		15C39B3320BB221000E1D06C /* String+Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Tools.swift"; sourceTree = "<group>"; };
+		15C39B3620BB221000E1D06C /* Api+Boost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Api+Boost.swift"; sourceTree = "<group>"; };
+		15C39B3720BB221000E1D06C /* Api+Apps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Api+Apps.swift"; sourceTree = "<group>"; };
+		15C39B3A20BB221000E1D06C /* Api+Teams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Api+Teams.swift"; sourceTree = "<group>"; };
+		15C39B3B20BB221000E1D06C /* Api+Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Api+Auth.swift"; sourceTree = "<group>"; };
+		15C39B3C20BB221000E1D06C /* Api+ApiCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Api+ApiCore.swift"; sourceTree = "<group>"; };
+		15C39B3D20BB221000E1D06C /* Api+Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Api+Users.swift"; sourceTree = "<group>"; };
+		15C39B3E20BB221000E1D06C /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		15C39B4020BB221000E1D06C /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
+		15C39B4120BB221000E1D06C /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		15C39B4220BB221000E1D06C /* Problem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
+		15C39B4320BB221000E1D06C /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		15C39B4420BB221000E1D06C /* Debug.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		15C39B4520BB221000E1D06C /* Boost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Boost.swift; sourceTree = "<group>"; };
+		15C39B4720BB221000E1D06C /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		15C39B4820BB221000E1D06C /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1574F41920BB22D800203B05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1574F42620BB235800203B05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15C39AFD20BB219800E1D06C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -50,11 +187,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1574F41E20BB22D800203B05 /* BoostSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1574F41F20BB22D800203B05 /* BoostSDK.h */,
+				1574F42020BB22D800203B05 /* Info.plist */,
+			);
+			path = BoostSDK;
+			sourceTree = "<group>";
+		};
+		1574F42B20BB235800203B05 /* BoostSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1574F42C20BB235800203B05 /* BoostSDK.h */,
+				1574F42D20BB235800203B05 /* Info.plist */,
+			);
+			path = BoostSDK;
+			sourceTree = "<group>";
+		};
 		15C39AF720BB219800E1D06C = {
 			isa = PBXGroup;
 			children = (
+				15C39B2020BB221000E1D06C /* Classes */,
 				15C39B0320BB219800E1D06C /* BoostSDK */,
 				15C39B0E20BB219800E1D06C /* BoostSDKTests */,
+				1574F41E20BB22D800203B05 /* BoostSDK */,
+				1574F42B20BB235800203B05 /* BoostSDK */,
 				15C39B0220BB219800E1D06C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +222,8 @@
 			children = (
 				15C39B0120BB219800E1D06C /* BoostSDK.framework */,
 				15C39B0A20BB219800E1D06C /* BoostSDKTests.xctest */,
+				1574F41D20BB22D800203B05 /* BoostSDK.framework */,
+				1574F42A20BB235800203B05 /* BoostSDK_macOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,8 +231,7 @@
 		15C39B0320BB219800E1D06C /* BoostSDK */ = {
 			isa = PBXGroup;
 			children = (
-				15C39B0420BB219800E1D06C /* BoostSDK.h */,
-				15C39B0520BB219800E1D06C /* Info.plist */,
+				15C39B1B20BB21F300E1D06C /* Supporting files */,
 			);
 			path = BoostSDK;
 			sourceTree = "<group>";
@@ -86,23 +245,207 @@
 			path = BoostSDKTests;
 			sourceTree = "<group>";
 		};
+		15C39B1B20BB21F300E1D06C /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				15C39B1C20BB21F300E1D06C /* BoostSDK.h */,
+				15C39B1D20BB21F300E1D06C /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		15C39B2020BB221000E1D06C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				15C39B2120BB221000E1D06C /* Networking */,
+				15C39B2320BB221000E1D06C /* Models */,
+				15C39B3020BB221000E1D06C /* Extensions */,
+				15C39B3420BB221000E1D06C /* Requests */,
+				15C39B3F20BB221000E1D06C /* Libs */,
+				15C39B4520BB221000E1D06C /* Boost.swift */,
+				15C39B4620BB221000E1D06C /* Protocols */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		15C39B2120BB221000E1D06C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				15C39B2220BB221000E1D06C /* Networking.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		15C39B2320BB221000E1D06C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				15C39B2420BB221000E1D06C /* Boost */,
+				15C39B2820BB221000E1D06C /* ApiCore */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		15C39B2420BB221000E1D06C /* Boost */ = {
+			isa = PBXGroup;
+			children = (
+				15C39B2520BB221000E1D06C /* Overview.swift */,
+				15C39B2620BB221000E1D06C /* TeamAppInfo.swift */,
+				15C39B2720BB221000E1D06C /* App.swift */,
+			);
+			path = Boost;
+			sourceTree = "<group>";
+		};
+		15C39B2820BB221000E1D06C /* ApiCore */ = {
+			isa = PBXGroup;
+			children = (
+				15C39B2920BB221000E1D06C /* Login.swift */,
+				15C39B2A20BB221000E1D06C /* Info.swift */,
+				15C39B2B20BB221000E1D06C /* Success.swift */,
+				15C39B2C20BB221000E1D06C /* Team.swift */,
+				15C39B2D20BB221000E1D06C /* User.swift */,
+				15C39B2E20BB221000E1D06C /* Pong.swift */,
+				15C39B2F20BB221000E1D06C /* Token.swift */,
+			);
+			path = ApiCore;
+			sourceTree = "<group>";
+		};
+		15C39B3020BB221000E1D06C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				15C39B3120BB221000E1D06C /* Codable+Tools.swift */,
+				15C39B3220BB221000E1D06C /* Networking+SimpleRequest.swift */,
+				15C39B3320BB221000E1D06C /* String+Tools.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		15C39B3420BB221000E1D06C /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				15C39B3520BB221000E1D06C /* Boost */,
+				15C39B3820BB221000E1D06C /* Extensions */,
+				15C39B3920BB221000E1D06C /* ApiCore */,
+				15C39B3E20BB221000E1D06C /* Api.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		15C39B3520BB221000E1D06C /* Boost */ = {
+			isa = PBXGroup;
+			children = (
+				15C39B3620BB221000E1D06C /* Api+Boost.swift */,
+				15C39B3720BB221000E1D06C /* Api+Apps.swift */,
+			);
+			path = Boost;
+			sourceTree = "<group>";
+		};
+		15C39B3820BB221000E1D06C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		15C39B3920BB221000E1D06C /* ApiCore */ = {
+			isa = PBXGroup;
+			children = (
+				15C39B3A20BB221000E1D06C /* Api+Teams.swift */,
+				15C39B3B20BB221000E1D06C /* Api+Auth.swift */,
+				15C39B3C20BB221000E1D06C /* Api+ApiCore.swift */,
+				15C39B3D20BB221000E1D06C /* Api+Users.swift */,
+			);
+			path = ApiCore;
+			sourceTree = "<group>";
+		};
+		15C39B3F20BB221000E1D06C /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				15C39B4020BB221000E1D06C /* Query.swift */,
+				15C39B4120BB221000E1D06C /* Result.swift */,
+				15C39B4220BB221000E1D06C /* Problem.swift */,
+				15C39B4320BB221000E1D06C /* Promise.swift */,
+				15C39B4420BB221000E1D06C /* Debug.swift */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		15C39B4620BB221000E1D06C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				15C39B4720BB221000E1D06C /* Model.swift */,
+				15C39B4820BB221000E1D06C /* Entry.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1574F41A20BB22D800203B05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1574F42120BB22D800203B05 /* BoostSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1574F42720BB235800203B05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1574F42E20BB235800203B05 /* BoostSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15C39AFE20BB219800E1D06C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15C39B1220BB219800E1D06C /* BoostSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		15C39B0020BB219800E1D06C /* BoostSDK */ = {
+		1574F41C20BB22D800203B05 /* BoostSDK-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15C39B1520BB219800E1D06C /* Build configuration list for PBXNativeTarget "BoostSDK" */;
+			buildConfigurationList = 1574F42220BB22D800203B05 /* Build configuration list for PBXNativeTarget "BoostSDK-tvOS" */;
+			buildPhases = (
+				1574F41820BB22D800203B05 /* Sources */,
+				1574F41920BB22D800203B05 /* Frameworks */,
+				1574F41A20BB22D800203B05 /* Headers */,
+				1574F41B20BB22D800203B05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BoostSDK-tvOS";
+			productName = BoostSDK;
+			productReference = 1574F41D20BB22D800203B05 /* BoostSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1574F42920BB235800203B05 /* BoostSDK-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1574F42F20BB235900203B05 /* Build configuration list for PBXNativeTarget "BoostSDK-macOS" */;
+			buildPhases = (
+				1574F42520BB235800203B05 /* Sources */,
+				1574F42620BB235800203B05 /* Frameworks */,
+				1574F42720BB235800203B05 /* Headers */,
+				1574F42820BB235800203B05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BoostSDK-macOS";
+			productName = BoostSDK;
+			productReference = 1574F42A20BB235800203B05 /* BoostSDK_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		15C39B0020BB219800E1D06C /* BoostSDK-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C39B1520BB219800E1D06C /* Build configuration list for PBXNativeTarget "BoostSDK-iOS" */;
 			buildPhases = (
 				15C39AFC20BB219800E1D06C /* Sources */,
 				15C39AFD20BB219800E1D06C /* Frameworks */,
@@ -113,7 +456,7 @@
 			);
 			dependencies = (
 			);
-			name = BoostSDK;
+			name = "BoostSDK-iOS";
 			productName = BoostSDK;
 			productReference = 15C39B0120BB219800E1D06C /* BoostSDK.framework */;
 			productType = "com.apple.product-type.framework";
@@ -144,8 +487,14 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				ORGANIZATIONNAME = Ford;
+				ORGANIZATIONNAME = LiveUI;
 				TargetAttributes = {
+					1574F41C20BB22D800203B05 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1574F42920BB235800203B05 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					15C39B0020BB219800E1D06C = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -166,13 +515,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15C39B0020BB219800E1D06C /* BoostSDK */,
+				15C39B0020BB219800E1D06C /* BoostSDK-iOS */,
 				15C39B0920BB219800E1D06C /* BoostSDKTests */,
+				1574F41C20BB22D800203B05 /* BoostSDK-tvOS */,
+				1574F42920BB235800203B05 /* BoostSDK-macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1574F41B20BB22D800203B05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1574F42820BB235800203B05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15C39AFF20BB219800E1D06C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,10 +555,111 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1574F41820BB22D800203B05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1574F44220BB23E600203B05 /* Api+Teams.swift in Sources */,
+				1574F44920BB23E600203B05 /* Problem.swift in Sources */,
+				1574F44A20BB23E600203B05 /* Promise.swift in Sources */,
+				1574F43E20BB23E600203B05 /* Networking+SimpleRequest.swift in Sources */,
+				1574F44020BB23E600203B05 /* Api+Boost.swift in Sources */,
+				1574F44C20BB23E600203B05 /* Boost.swift in Sources */,
+				1574F44120BB23E600203B05 /* Api+Apps.swift in Sources */,
+				1574F44D20BB23E600203B05 /* Model.swift in Sources */,
+				1574F43D20BB23E600203B05 /* Codable+Tools.swift in Sources */,
+				1574F44520BB23E600203B05 /* Api+Users.swift in Sources */,
+				1574F43F20BB23E600203B05 /* String+Tools.swift in Sources */,
+				1574F44320BB23E600203B05 /* Api+Auth.swift in Sources */,
+				1574F43320BB23E600203B05 /* Overview.swift in Sources */,
+				1574F43620BB23E600203B05 /* Login.swift in Sources */,
+				1574F43520BB23E600203B05 /* App.swift in Sources */,
+				1574F43720BB23E600203B05 /* Info.swift in Sources */,
+				1574F44E20BB23E600203B05 /* Entry.swift in Sources */,
+				1574F44620BB23E600203B05 /* Api.swift in Sources */,
+				1574F44820BB23E600203B05 /* Result.swift in Sources */,
+				1574F43920BB23E600203B05 /* Team.swift in Sources */,
+				1574F43A20BB23E600203B05 /* User.swift in Sources */,
+				1574F43820BB23E600203B05 /* Success.swift in Sources */,
+				1574F44B20BB23E600203B05 /* Debug.swift in Sources */,
+				1574F44720BB23E600203B05 /* Query.swift in Sources */,
+				1574F44420BB23E600203B05 /* Api+ApiCore.swift in Sources */,
+				1574F43C20BB23E600203B05 /* Token.swift in Sources */,
+				1574F43220BB23E600203B05 /* Networking.swift in Sources */,
+				1574F43420BB23E600203B05 /* TeamAppInfo.swift in Sources */,
+				1574F43B20BB23E600203B05 /* Pong.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1574F42520BB235800203B05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1574F45F20BB23E700203B05 /* Api+Teams.swift in Sources */,
+				1574F46620BB23E700203B05 /* Problem.swift in Sources */,
+				1574F46720BB23E700203B05 /* Promise.swift in Sources */,
+				1574F45B20BB23E700203B05 /* Networking+SimpleRequest.swift in Sources */,
+				1574F45D20BB23E700203B05 /* Api+Boost.swift in Sources */,
+				1574F46920BB23E700203B05 /* Boost.swift in Sources */,
+				1574F45E20BB23E700203B05 /* Api+Apps.swift in Sources */,
+				1574F46A20BB23E700203B05 /* Model.swift in Sources */,
+				1574F45A20BB23E700203B05 /* Codable+Tools.swift in Sources */,
+				1574F46220BB23E700203B05 /* Api+Users.swift in Sources */,
+				1574F45C20BB23E700203B05 /* String+Tools.swift in Sources */,
+				1574F46020BB23E700203B05 /* Api+Auth.swift in Sources */,
+				1574F45020BB23E700203B05 /* Overview.swift in Sources */,
+				1574F45320BB23E700203B05 /* Login.swift in Sources */,
+				1574F45220BB23E700203B05 /* App.swift in Sources */,
+				1574F45420BB23E700203B05 /* Info.swift in Sources */,
+				1574F46B20BB23E700203B05 /* Entry.swift in Sources */,
+				1574F46320BB23E700203B05 /* Api.swift in Sources */,
+				1574F46520BB23E700203B05 /* Result.swift in Sources */,
+				1574F45620BB23E700203B05 /* Team.swift in Sources */,
+				1574F45720BB23E700203B05 /* User.swift in Sources */,
+				1574F45520BB23E700203B05 /* Success.swift in Sources */,
+				1574F46820BB23E700203B05 /* Debug.swift in Sources */,
+				1574F46420BB23E700203B05 /* Query.swift in Sources */,
+				1574F46120BB23E700203B05 /* Api+ApiCore.swift in Sources */,
+				1574F45920BB23E700203B05 /* Token.swift in Sources */,
+				1574F44F20BB23E700203B05 /* Networking.swift in Sources */,
+				1574F45120BB23E700203B05 /* TeamAppInfo.swift in Sources */,
+				1574F45820BB23E700203B05 /* Pong.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15C39AFC20BB219800E1D06C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C39B5920BB221100E1D06C /* Api+Teams.swift in Sources */,
+				15C39B6020BB221100E1D06C /* Problem.swift in Sources */,
+				15C39B6120BB221100E1D06C /* Promise.swift in Sources */,
+				15C39B5520BB221100E1D06C /* Networking+SimpleRequest.swift in Sources */,
+				15C39B5720BB221100E1D06C /* Api+Boost.swift in Sources */,
+				15C39B6320BB221100E1D06C /* Boost.swift in Sources */,
+				15C39B5820BB221100E1D06C /* Api+Apps.swift in Sources */,
+				15C39B6420BB221100E1D06C /* Model.swift in Sources */,
+				15C39B5420BB221100E1D06C /* Codable+Tools.swift in Sources */,
+				15C39B5C20BB221100E1D06C /* Api+Users.swift in Sources */,
+				15C39B5620BB221100E1D06C /* String+Tools.swift in Sources */,
+				15C39B5A20BB221100E1D06C /* Api+Auth.swift in Sources */,
+				15C39B4A20BB221100E1D06C /* Overview.swift in Sources */,
+				15C39B4D20BB221100E1D06C /* Login.swift in Sources */,
+				15C39B4C20BB221100E1D06C /* App.swift in Sources */,
+				15C39B4E20BB221100E1D06C /* Info.swift in Sources */,
+				15C39B6520BB221100E1D06C /* Entry.swift in Sources */,
+				15C39B5D20BB221100E1D06C /* Api.swift in Sources */,
+				15C39B5F20BB221100E1D06C /* Result.swift in Sources */,
+				15C39B5020BB221100E1D06C /* Team.swift in Sources */,
+				15C39B5120BB221100E1D06C /* User.swift in Sources */,
+				15C39B4F20BB221100E1D06C /* Success.swift in Sources */,
+				15C39B6220BB221100E1D06C /* Debug.swift in Sources */,
+				15C39B5E20BB221100E1D06C /* Query.swift in Sources */,
+				15C39B5B20BB221100E1D06C /* Api+ApiCore.swift in Sources */,
+				15C39B5320BB221100E1D06C /* Token.swift in Sources */,
+				15C39B4920BB221100E1D06C /* Networking.swift in Sources */,
+				15C39B4B20BB221100E1D06C /* TeamAppInfo.swift in Sources */,
+				15C39B5220BB221100E1D06C /* Pong.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,12 +676,118 @@
 /* Begin PBXTargetDependency section */
 		15C39B0D20BB219800E1D06C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 15C39B0020BB219800E1D06C /* BoostSDK */;
+			target = 15C39B0020BB219800E1D06C /* BoostSDK-iOS */;
 			targetProxy = 15C39B0C20BB219800E1D06C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1574F42320BB22D800203B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BoostSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.liveui.BoostSDK;
+				PRODUCT_NAME = BoostSDK;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+			};
+			name = Debug;
+		};
+		1574F42420BB22D800203B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BoostSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.liveui.BoostSDK;
+				PRODUCT_NAME = BoostSDK;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.3;
+			};
+			name = Release;
+		};
+		1574F43020BB235900203B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = BoostSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = io.liveui.BoostSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		1574F43120BB235900203B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = BoostSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = io.liveui.BoostSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		15C39B1320BB219800E1D06C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -345,7 +917,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BoostSDK/Info.plist;
+				INFOPLIST_FILE = "BoostSDK/Supporting files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -353,7 +925,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.liveui.BoostSDK;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = BoostSDK;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -369,7 +941,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = BoostSDK/Info.plist;
+				INFOPLIST_FILE = "BoostSDK/Supporting files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -377,7 +949,7 @@
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.liveui.BoostSDK;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = BoostSDK;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -387,6 +959,7 @@
 		15C39B1920BB219800E1D06C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BoostSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,6 +977,7 @@
 		15C39B1A20BB219800E1D06C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BoostSDKTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -421,6 +995,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1574F42220BB22D800203B05 /* Build configuration list for PBXNativeTarget "BoostSDK-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1574F42320BB22D800203B05 /* Debug */,
+				1574F42420BB22D800203B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1574F42F20BB235900203B05 /* Build configuration list for PBXNativeTarget "BoostSDK-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1574F43020BB235900203B05 /* Debug */,
+				1574F43120BB235900203B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		15C39AFB20BB219800E1D06C /* Build configuration list for PBXProject "BoostSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -430,7 +1022,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15C39B1520BB219800E1D06C /* Build configuration list for PBXNativeTarget "BoostSDK" */ = {
+		15C39B1520BB219800E1D06C /* Build configuration list for PBXNativeTarget "BoostSDK-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15C39B1620BB219800E1D06C /* Debug */,
