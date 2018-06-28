@@ -44,11 +44,8 @@ public class Api {
     /// Networking
     let networking: Networking
     
-    /// Token has changed closure type
-    public typealias TokenHasChanged = ((_ token: String) -> Void)
-    
     /// Initialization
-    public init(config: Config, tokenUpdated: TokenHasChanged? = nil) throws {
+    public init(config: Config) throws {
         self.config = config
         
         guard let url = URL(string: config.serverUrl) else {

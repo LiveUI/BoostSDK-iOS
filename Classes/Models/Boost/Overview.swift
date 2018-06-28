@@ -22,13 +22,13 @@ public struct Overview: Model {
     
     enum CodingKeys: String, CodingKey {
         case latestName = "latest_app_name"
-        case latestVersion = "latest_app_version"
+        case latestVersion = "latest_app_version"   
         case latestBuild = "latest_app_build"
         case latestBuildAdded = "latest_app_added"
         case latestAppId = "latest_app_id"
         case platform
         case identifier
-        case count
+        case count = "build_count"
     }
     
 }
