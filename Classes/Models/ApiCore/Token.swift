@@ -16,7 +16,7 @@ public struct Token: Entry {
     }
     
     public let id: UUID?
-    public let expires: String
+    public let expires: String?
     public let user: User
     
     enum CodingKeys: String, CodingKey {

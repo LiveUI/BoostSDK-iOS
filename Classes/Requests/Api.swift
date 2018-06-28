@@ -12,11 +12,12 @@ import Foundation
 public class Api {
     
     /// Api errors
-    public enum Problem: Error {
+    public enum Error: Swift.Error {
         case badServerUrl
         case notAuthorized
         case missingAuthToken
-        case objectHasntBeenCreatedYet
+        case objectNotCreatedYet
+        case unknownError(Swift.Error?)
     }
     
     /// Configuration object
@@ -43,20 +44,27 @@ public class Api {
     /// Networking
     let networking: Networking
     
+    /// Token has changed closure type
+    public typealias TokenHasChanged = ((_ token: String) -> Void)
+    
     /// Initialization
-    public init(config: Config) throws {
+    public init(config: Config, tokenUpdated: TokenHasChanged? = nil) throws {
         self.config = config
         
         guard let url = URL(string: config.serverUrl) else {
-            throw Problem.badServerUrl
+            throw Error.badServerUrl
         }
         
         networking = Networking(baseUrl: url)
         networking.reauthenticate = {
             guard let token = config.token, let uuid = UUID(uuidString: token) else {
-                throw Problem.missingAuthToken
+                throw Error.missingAuthToken
             }
-            return try self.auth(token: uuid)
+            do {
+                return try self.auth(token: uuid)
+            } catch {
+                throw Error.notAuthorized
+            }
         }
     }
     

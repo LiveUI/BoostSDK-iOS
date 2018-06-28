@@ -19,7 +19,7 @@ extension Api {
     }
     
     /// Return promise for a list of available app identifiers per each platform
-    public func overview(team teamId: UUID? = nil, platform: App.Platform = .any, identifier: String? = nil, page: Int = 0, limit: Int = 1000) throws -> Promise<[Overview]> {
+    public func overview(team teamId: UUID? = nil, platform: App.Platform = .any, identifier: String? = nil, from: Int = 0, limit: Int = 1000) throws -> Promise<[Overview]> {
         let query: Query
         if let teamId = teamId {
             query = Query("teams/\(teamId)/apps/overview")
@@ -28,7 +28,7 @@ extension Api {
         }
         query.append(platform)
         query.append(key: "identifier", value: identifier)
-        query.append(key: "page", value: page)
+        query.append(key: "from", value: from)
         query.append(key: "limit", value: limit)
         return try networking.get(path: query.value)
     }
@@ -36,7 +36,7 @@ extension Api {
     // TODO: Add sorting!!!!!!!
     /// Return promise for apps with optional basic filters
     /// Property `search` is for basic searching with name, info, version, bundle and identifier being looked through
-    public func apps(team teamId: UUID? = nil, platform: App.Platform = .any, identifier: String? = nil, search: String? = nil, page: Int = 0, limit: Int = 30) throws -> Promise<[App]> {
+    public func apps(team teamId: UUID? = nil, platform: App.Platform, identifier: String, search: String? = nil, from: Int = 0, limit: Int = 30) throws -> Promise<[App]> {
         let query: Query
         if let teamId = teamId {
             query = Query("teams/\(teamId)/apps")
@@ -45,7 +45,7 @@ extension Api {
         }
         query.append(platform)
         query.append(key: "identifier", value: identifier)
-        query.append(key: "page", value: page)
+        query.append(key: "from", value: from)
         query.append(key: "limit", value: limit)
         query.append(key: "search", value: search)
         return try networking.get(path: query.value)

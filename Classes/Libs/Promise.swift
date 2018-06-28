@@ -14,7 +14,7 @@ public class Promise<Expectation> {
     public typealias Map<T> = ((Expectation) throws -> T)
     public typealias ErrorMap<T> = ((Error) throws -> T)
     public typealias Success = ((Expectation) throws -> Void)
-    public typealias Failure = ((Error) -> Void)
+    public typealias Failure = ((Api.Error) -> Void)
     
     var mapClosure: Map<Any>?
     var mapPromise: Promise<Any>?
@@ -26,7 +26,7 @@ public class Promise<Expectation> {
     var errorClosure: Failure?
     
     var fulfilledExpectation: Expectation?
-    var fulfilledError: Error?
+    var fulfilledError: Api.Error?
     
     init() { }
     
@@ -102,9 +102,15 @@ public class Promise<Expectation> {
     }
     
     func fail(_ error: Error) {
-        fulfilledError = error
+        let fulfilledError: Api.Error
+        if let error = error as? Api.Error {
+            fulfilledError = error
+        } else {
+            fulfilledError = .unknownError(error)
+        }
         
-        errorClosure?(error)
+        self.fulfilledError = fulfilledError
+        errorClosure?(fulfilledError)
     }
     
 }

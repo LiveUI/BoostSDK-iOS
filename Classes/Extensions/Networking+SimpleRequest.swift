@@ -81,7 +81,7 @@ extension Networking {
         try delete(path: path) { res in
             switch res {
             case .error(let error):
-                promise.fail(error ?? Problem.unknownError)
+                promise.fail(error ?? Api.Error.unknownError(error))
             default:
                 promise.complete(Void())
             }

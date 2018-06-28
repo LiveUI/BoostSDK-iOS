@@ -17,12 +17,6 @@ public class Networking {
     
     var jwtToken: String?
     
-    public enum Problem: Error {
-        case unknownError
-        case invalidPath
-        case badToken
-    }
-    
     var reauthenticate: (() throws -> Promise<Token>)?
     
     // MARK: Initialization
@@ -101,7 +95,7 @@ public class Networking {
                                     self.makeRequest(path: path, data: data, method: method, headers: headers, result)
                                 }
                             }).error({ error in
-                                result(Result.error(Problem.badToken))
+                                result(Result.error(Api.Error.notAuthorized))
                             })
                             return
                         } catch {
@@ -110,7 +104,7 @@ public class Networking {
                         }
                     } else {
                         Debug.print("Unauthorised, unable to refresh token on auth endpoints")
-                        result(Result.error(Problem.unknownError))
+                        result(Result.error(Api.Error.notAuthorized))
                     }
                 }
                 if let auth = (response.allHeaderFields["authorization"] ?? response.allHeaderFields["Authorization"]) as? String {
@@ -118,7 +112,7 @@ public class Networking {
                 }
                 result(Result.success((data: responseData, response: response)))
             } else {
-                result(Result.error(Problem.unknownError))
+                result(Result.error(Api.Error.unknownError(nil)))
             }
         }
         

@@ -42,7 +42,7 @@ extension Api {
     /// Update a single team
     public func update(team: Team) throws -> Promise<Team> {
         guard let id = team.id else {
-            throw Problem.objectHasntBeenCreatedYet
+            throw Error.objectNotCreatedYet
         }
         return try networking.put(path: "teams/\(id.uuidString)", object: team)
     }
