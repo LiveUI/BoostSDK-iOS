@@ -15,8 +15,28 @@ public struct Info: Model {
     /// Server icon object
     public struct ServerIcon: Codable {
         
+        /// Available icon sizes
+        public enum Size: Int, Codable {
+            
+            /// 64x64 px
+            case size64 = 64
+            
+            /// 128x128 px
+            case size128 = 128
+            
+            /// 192x192 px
+            case size192 = 192
+            
+            /// 256x256 px
+            case size256 = 256
+            
+            /// 512x512 px
+            case size512 = 512
+            
+        }
+        
         /// Size
-        let size: Double
+        let size: Size
         
         /// Icon URL
         let url: String
@@ -36,6 +56,21 @@ public struct Info: Model {
         case name
         case url
         case icons
+    }
+    
+}
+
+
+extension Array where Element == Info.ServerIcon {
+    
+    /// Icon URL for specific size
+    public func url(size: Info.ServerIcon.Size) -> String? {
+        for s in self {
+            if s.size == size {
+                return s.url
+            }
+        }
+        return last?.url
     }
     
 }
