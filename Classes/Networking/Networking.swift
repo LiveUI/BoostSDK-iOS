@@ -68,7 +68,6 @@ public class Networking {
             request = URLRequest(url: url)
         }
         
-        
         if let data = data {
             request.httpBody = data
         }

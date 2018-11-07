@@ -18,7 +18,7 @@ extension Api {
     }
     
     /// Authentication refresh using persistent token
-    public func auth(token: UUID) throws -> Promise<Token> {
+    public func auth(token: String) throws -> Promise<Token> {
         let data = Token.Request(token: token)
         return try networking.post(path: "token", object: data)
     }

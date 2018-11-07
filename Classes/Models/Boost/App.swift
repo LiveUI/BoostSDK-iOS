@@ -53,3 +53,17 @@ public struct App: Entry {
     }
     
 }
+
+
+extension App {
+    
+    public func iconUrl(for api: Api) -> URL? {
+        guard iconExists == true, let id = id else {
+            return nil
+        }
+        var url = api.networking.baseUrl
+        url.appendPathComponent("apps/\(id.uuidString)/icon")
+        return url
+    }
+    
+}

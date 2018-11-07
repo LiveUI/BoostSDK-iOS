@@ -24,6 +24,19 @@ extension Networking {
         return promise
     }
     
+    func image(path: String) throws -> Promise<Data> {
+        let promise = Promise<Data>()
+        try get(path: path) { (res) in
+            do {
+                let object = try res.unwrap()
+                promise.complete(object.data)
+            } catch {
+                promise.fail(error)
+            }
+        }
+        return promise
+    }
+    
     func post<T>(path: String, data: Data) throws -> Promise<T> where T: Decodable {
         let promise = Promise<T>()
         try post(path: path, data: data) { (res) in

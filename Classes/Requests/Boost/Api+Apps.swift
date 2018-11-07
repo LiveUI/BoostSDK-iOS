@@ -51,9 +51,14 @@ extension Api {
         return try networking.get(path: query.value)
     }
     
-    /// Information about the API
+    /// Authenticate a download
     public func auth(app: UUID) throws -> Promise<AppAuth> {
         return try networking.get(path: "apps/" + app.uuidString + "/auth")
+    }
+    
+    /// Icon download
+    public func image(app: UUID) throws -> Promise<Data> {
+        return try networking.image(path: "apps/" + app.uuidString + "/icon")
     }
     
 }

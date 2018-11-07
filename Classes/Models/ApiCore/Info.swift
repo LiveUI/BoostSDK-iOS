@@ -18,6 +18,9 @@ public struct Info: Model {
         /// Available icon sizes
         public enum Size: Int, Codable {
             
+            /// 16x16 px
+            case size16 = 16
+            
             /// 64x64 px
             case size64 = 64
             

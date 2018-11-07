@@ -12,7 +12,7 @@ import Foundation
 public struct Token: Entry {
     
     struct Request: Codable {
-        let token: UUID
+        let token: String
     }
     
     public let id: UUID?

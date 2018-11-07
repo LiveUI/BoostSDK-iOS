@@ -54,11 +54,11 @@ public class Api {
         
         networking = Networking(baseUrl: url)
         networking.reauthenticate = {
-            guard let token = config.token, let uuid = UUID(uuidString: token) else {
+            guard let token = config.token else {
                 throw Error.missingAuthToken
             }
             do {
-                return try self.auth(token: uuid)
+                return try self.auth(token: token)
             } catch {
                 throw Error.notAuthorized
             }
